@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block title %} 点赞二 {% endblock%}
+
+{% block head %} 
+    <!-- 测试css -->
+	<link rel="stylesheet" href="/css/main.css">
+	<!-- 测试js -->
+	{% endblock%}
+
+{% block content %}
+	<h1>[[data]]</h1>
+	<div id="app-5">
+		<p>{{ message }}</p>
+		<button v-on:click="reverseMessage">逆转消息</button>
+	  </div>
+{% endblock %}
+{% block scripts %}
+	<script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script>
+	<script src="/js/index.js"></script> 
+{% endblock %}

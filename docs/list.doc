@@ -1,0 +1,32 @@
+项目目录：
+ build  ----上线目录
+ config ----项目配置文件
+ docs   ----项目文档
+   jsdocs    ----自动生成的项目文档
+   list.doc  ----项目框架
+ logs   ----生成的项目日志
+ src    ----开发目录
+   nodeuii  ----node 目录
+     config  -----node配置文件
+     controllers  ----控制器C
+     middlewares  ----容错
+     models  ----模型M
+     app.js  ====启动文件
+   webapp   ----页面展示 目录
+     views ---- 模板文件
+        layout.html  ----静态模板
+        index.html   ----首页
+     assets ----静态样式
+       css
+       js
+ tests  ----自动化测试
+ gulpfile.js  ====gulp配置目录
+
+项目操作：
+  npm run build:dev   -----开发环境gulp编译，并监控
+  npm run build:prod  -----正式环境gulp编译
+  npm start  -------启动项目，端口是8081
+  npm run docs   ------生成项目文档
+  npm run service  ----测试，待完善
+
+  现在差webpack编译静态文件，所以把静态文件编译到build目录中，还差模块化文件
