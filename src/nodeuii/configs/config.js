@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import path from "path";
 let config = {
-  "viewDir":path.join(__dirname,'..','/views'),
-  "staticDir":path.join(__dirname,'..','/assets'),
+  "viewDir":path.join(__dirname,'..','./webapp/views'),
+  "staticDir":path.join(__dirname,'..','/webapp'),
   "env":process.env.NODE_ENV  //"development" (开发环境) / .  "production" （生产环境）
 };
 //开发环境下

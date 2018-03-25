@@ -1,5 +1,8 @@
 项目目录：
  build  ----上线目录
+    webapp 
+      views
+        htmlAfterWebpackPlugin.js   ------静态文件插入配置
  config ----项目配置文件
  docs   ----项目文档
    jsdocs    ----自动生成的项目文档
@@ -21,6 +24,7 @@
        js
  tests  ----自动化测试
  gulpfile.js  ====gulp配置目录
+ webpack.config.js  ===webpack配置目录
 
 项目操作：
   npm run build:dev   -----开发环境gulp编译，并监控

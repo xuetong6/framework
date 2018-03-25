@@ -15,8 +15,8 @@ var _path2 = _interopRequireDefault(_path);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 let config = {
-    "viewDir": _path2.default.join(__dirname, '..', '/views'),
-    "staticDir": _path2.default.join(__dirname, '..', '/assets'),
+    "viewDir": _path2.default.join(__dirname, '..', './webapp/views'),
+    "staticDir": _path2.default.join(__dirname, '..', '/webapp'),
     "env": process.env.NODE_ENV //"development" (开发环境) / .  "production" （生产环境）
 };
 //开发环境下

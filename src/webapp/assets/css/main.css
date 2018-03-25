@@ -1,0 +1,10 @@
+html,body,div,span,a,h1,h2,h3,h4,h5,h6,img,b,font,ul,li,dl,dt,dd,form,header,nav,{
+    padding: 0; margin: 0;box-sizing: border-box;
+}
+li{list-style: none;}
+.clear:after{clear: both; content: ''; display: block;}
+
+header{height: 40px; line-height: 40px;}
+.top_head{width: 1200px; margin: 0px auto;}
+.logo{background: url(../images/logo.svg) no-repeat center; width:133px; height: 22px;}
+.nav li{float: left;}

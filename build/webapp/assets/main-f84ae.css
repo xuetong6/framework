@@ -1,0 +1,13 @@
+html,body,header,div,span,a,ul,li,dl,dt,dd,img,p,b{
+    padding: 0; margin: 0;box-sizing: border-box;font-family: sans-serif; font-size:16px;
+}
+body{background: #0f0;}
+:root {
+    --fontSize: 1rem;
+    --mainColor: #f8f8f8;
+    }
+h1{color: var(--mainColor); font-size: var(--fontSize)*1.8}
+
+
+
+
