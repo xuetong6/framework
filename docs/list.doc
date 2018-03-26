@@ -27,10 +27,11 @@
  webpack.config.js  ===webpack配置目录
 
 项目操作：
+  npm install   -----安装所有的包依赖
   npm run build:dev   -----开发环境gulp编译，并监控
   npm run build:prod  -----正式环境gulp编译
+  npm run dev   ------开发环境webpack编译
+  npm run prod   ------正式环境webpack编译
   npm start  -------启动项目，端口是8081
   npm run docs   ------生成项目文档
   npm run service  ----测试，待完善
-
-  现在差webpack编译静态文件，所以把静态文件编译到build目录中，还差模块化文件
